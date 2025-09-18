@@ -9,7 +9,7 @@ def genprimes(x, y):
         
         isPrime = True
         
-        for t in range(2, n-1):
+        for t in range(2, n-1): #t as an iteration variable
             
             if n%t == 0:
                 isPrime = False
@@ -22,5 +22,6 @@ def genprimes(x, y):
 
 start_range = int(input("\nEnter The Starting Range: "))
 end_range = int(input("\nEnter The Ending Range: "))
+
 
 genprimes(start_range, end_range)
